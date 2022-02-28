@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 
     while (1)
     {
-        fputs("Inser message(q to quit): ", stdout);
+        fputs("Insert message(q to quit): ", stdout);
         fgets(message, sizeof(message), stdin);
         if (!strcmp(message, "q\n") || !strcmp(message, "Q\n"))
             break;
