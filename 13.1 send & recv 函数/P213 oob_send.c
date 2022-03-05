@@ -5,7 +5,7 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 
-#define BUF_SIZE 30;
+#define BUF_SIZE 30
 void error_handling(char *message);
 
 int main(int argc, char *argv[])
